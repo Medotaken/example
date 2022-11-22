@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.content5{
+    height: 2500px;
+    width: 100vw;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.158);
+    position: absolute;
+    text-align: center;
+}
+h1{
+    color: rgb(65, 109, 255);
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: tahoma;
+    text-decoration: overline ;
+    box-shadow: 0 0 26px rgb(65, 109, 255);
+    text-shadow: 0 0 15px rgb(65, 109, 255);
+}
+.info h2{
+    color: rgb(121, 121, 121);
+    text-align: rtl;
+    font-size: 2.4em;
+    font-weight: 700;
+    font-family: Droid Arabic Naskh, serif;
+    text-decoration: overline;
+    text-shadow: 0 0 10px rgb(121, 121, 121);
+    position: absolute;
+    top: 8%;
+    left: 38%;
+}
+p{
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+
+    display: inline;
+}
+.immge{
+    border: 2px solid white;
+    box-shadow: 0 0 15px white;
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    width: 350px;
+    height: 200px;
+    top: -30px;
+    left:-20px;
+    margin: 100px;
+    overflow: hidden;
+    z-index: 9999999999;
+    transition: all .5s;
+}
+.immge:hover  {
+    transform: rotate(360deg);
+    border-radius: 41% 44% 56% 59% /38% 62% 63% 37% ;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 999999999;
+    
+}
+
+.text{
+    right: 10px;
+    position: relative;
+    top: 50px;
+    left: -35px;
+}
+.text2{
+    right: 10px;
+    position: relative;
+    top: 50px;
+    left: -635px;
+}
+
+.info1 h2{
+    color: rgb(121, 121, 121);
+    text-align: rtl;
+    font-size: 2.4em;
+    font-weight: 700;
+    font-family: Droid Arabic Naskh, serif;
+    text-decoration: overline;
+    text-shadow: 0 0 10px rgb(121, 121, 121);
+
+}
+.info2 h2{
+    color: rgb(121, 121, 121);
+    text-align: rtl;
+    font-size: 2.4em;
+    font-weight: 700;
+    font-family: Droid Arabic Naskh, serif;
+    text-decoration: overline;
+    text-shadow: 0 0 10px rgb(121, 121, 121);
+}
+
+.info3 h2{
+    color: rgb(121, 121, 121);
+    text-align: rtl;
+    font-size: 2.4em;
+    font-weight: 700;
+    font-family: Droid Arabic Naskh, serif;
+    text-decoration: overline;
+    text-shadow: 0 0 10px rgb(121, 121, 121);
+}
+
+.immge2{
+    border: 2px solid white;
+    box-shadow: 0 0 15px white;
+    border-radius:38% 62% 63% 37% / 41% 44% 56% 59%;
+    position: relative;
+    width: 350px;
+    height: 200px;
+    top: -20px;
+    left: 780px;
+    margin: 100px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.immge2:hover  {
+    transform:scale(1.1);
+    border-radius: 41% 44% 56% 59% /38% 62% 63% 37% ;
+}
